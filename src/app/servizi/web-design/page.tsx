@@ -3,6 +3,7 @@ import Footer from "../../../components/Footer/Footer";
 import HeroWeb from "../../../components/HeroWeb/HeroWeb";
 import ServiceFor from "../../../components/ServiceFor/ServiceFor";
 import Strategy from "../../../components/Strategy/Strategy";
+import Contact from "../../../components/Contact/Contacts";
 
 import check from "../../../Images/check.png";
 import Laptop from "../../../Images/Laptop.png";
@@ -63,6 +64,7 @@ export default function WebDesignPage() {
                        la privacy online. <br/><br/>Infine non voglio lasciarti solo! Ti fornirò <span style="color: #2176ff">supporto continuativo</span> nel tempo e ti assisterò per interventi di manutenzione e aggiornamenti e condividerò le analisi periodiche del rendimento del tuo sito sui motori di ricerca.
                       `}
       />
+      <Contact />
       <Footer />
     </>
   );
