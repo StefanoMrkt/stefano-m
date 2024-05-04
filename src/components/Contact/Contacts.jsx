@@ -50,7 +50,7 @@ export default function Contacts() {
 
   return (
     <div className={style.container} id="Contacts">
-      <h2 className={style.title}>Contattami</h2>
+      <h2 className={` ${style.title} mulish`}>Contattami</h2>
 
       <form className={style.form} onSubmit={sendEmail} ref={form}>
         <label className={style.label} htmlFor="name">

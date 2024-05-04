@@ -10,7 +10,7 @@
 .title {
   margin-bottom: 65px;
   font-size: 95px;
-  font-family: "Mulish", serif;
+  font-weight: 600;
 }
 
 .content {
@@ -46,6 +46,7 @@
 .grid {
   display: flex;
   margin-top: 45px;
+  align-items: start;
 }
 
 .point {
@@ -85,13 +86,19 @@
 }
 
 @media screen and (max-width: 1100px) {
+.container {
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
 .title {
   font-size: 43px;
   line-height: 55px;
 }
 
   .Laptop {
-    scale: 0.2;
+    width: auto;
+    scale: 0.5;
     height: 100%;
   }
 

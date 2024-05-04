@@ -1,3 +1,23 @@
+:root {
+  --background-color: rgb(255, 255, 255);
+  --text-color: white;
+  --text-color-subtitle: rgb(167, 163, 163);
+
+  --blu: #2176ff;
+  --blu-scuro: #083358;
+  --rosso: #fc3c3c;
+}
+
+.mulish {
+  font-family: var(--font-mulish);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 h1, h2, h3 {
   font-family: 'Mulish', sans-serif;
 }

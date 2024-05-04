@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Head from "next/head";
 
 import Navabar from "../components/Navbar/Navbar";
 import Hero from "../components/Hero/Hero";
@@ -10,18 +11,45 @@ import Portfolio from "../components/Portfolio/Portfolio";
 import Opinion from "../components/Opinion/Opinion";
 import Contact from "../components/Contact/Contacts";
 import Footer from "../components/Footer/Footer";
+import CTA from "../components/CTA/CTA";
+import FollowMe from "../components/FollowMe/FollowMe";
+import Call from "../components/Call/Call";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Stefano Montemarli - Web Designer & Social Media Manager",
+  description:
+    "Realizzo siti web professionali e gestisco la tua presenza sui social media. Scorpi come posso migliorare la tua presenza online!",
+};
 
 export default function Home() {
   return (
     <>
+      <head>
+        <meta property="og:title" content="Stefano Montemarli" />
+        <meta
+          property="og:description"
+          content="Migliora la tua presenza online"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="https://1drv.ms/i/s!AmWaVBl9p_dCgWiemacZx7YdEJm6?e=OpigS2"
+        />
+        <meta property="og:url" content="https://www.stefanomontemarli.it" />
+        <link rel="canonical" href="https://www.stefanomontemarli.it" />
+      </head>
       <Navabar />
+      <Call />
       <Hero />
       <About />
       <Services />
       <Method />
+      <CTA />
       <Portfolio />
       <Opinion />
       <Contact />
+      <FollowMe />
       <Footer />
     </>
   );

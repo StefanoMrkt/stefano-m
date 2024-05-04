@@ -20,7 +20,7 @@ export default function ServiceFor({
 }) {
   return (
     <div className={style.container} id="ServiceFor">
-      <h2 className={style.title}>Perché è utile</h2>
+      <h2 className={` ${style.title} mulish`}>Perché è utile</h2>
 
       <div className={style.content}>
         <div className={style.grid}>

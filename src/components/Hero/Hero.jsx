@@ -74,24 +74,29 @@ export default function Hero() {
       <div className={style.heroSx}>
         <Image src={Oblique} alt="Oblique" className={style.oblique} />
         <div className={style.myWork}>
-          SOCIAL MEDIA MANAGER,
+          WEB DESIGNER,
           <br />
-          WEB DESIGNER & FRONT-END DEVELOPER
+          FRONT-END DEVELOPER <br />& SOCIAL MEDIA MANAGER
         </div>
         <div className={style.divMe}>
-          <div className={style.myName}>Stefano Montemarli</div>
+          <div className={`${style.myName} mulish`}>Stefano Montemarli</div>
           <div className={style.heroDown}>
             <div className={style.line}></div>
             <p className={style.myDescription}>
-              Gestisco profili social e creo siti web. Sarò il tuo supporto e lo
-              faccio con passione e dedizione
+              Realizzo siti web SEO-friendly e gestisco profili social per
+              potenziare il tuo brand. Il mio impegno è la tua crescita online.
             </p>
           </div>
         </div>
       </div>
       <div className={style.heroDx}>
-        <Image src={Bolla} alt="Bolla" className={style.bolla} />
-        <Image src={Circle} alt="Circle" id="Circle" className={style.circle} />
+        <Image src={Bolla} alt="" className={style.bolla} />
+        <Image
+          src={Circle}
+          alt="Stefano Montemarli"
+          id="Circle"
+          className={style.circle}
+        />
         <button className={style.play} id="play" onClick={PlayVideo}>
           <Image src={PlayButton} alt="Play"></Image>
         </button>

@@ -14,17 +14,19 @@ export default function Method() {
   return (
     <>
       <div className={style.container} id="Method">
-        <h2 className={style.title}>Il mio metodo</h2>
+        <h2 className={` ${style.title} mulish`}>Il mio metodo</h2>
 
         <Container className={style.grid}>
           <Row className="flex-column flex-sm-row">
             <Col sm={12} className={style.name}>
-              Servizio completo <div className={style.underline}></div>
+              Metodo SPARK <div className={style.underline}></div>
             </Col>
             <Col sm={12}>
               <p className={style.description}>
-                Offro un servizio completo di web design e gestione dei social
-                media, assicurando coerenza nel design e nella comunicazione del
+                Il Metodo Spark è un approccio unico che utilizzo per infondere
+                energia e vitalità nei tuoi progetti di web design e social
+                media. Questo metodo è stato sviluppato con l&apos;obiettivo di
+                ottimizzare la presenza online e aumentare l&apos;engagement del
                 tuo brand.
               </p>
             </Col>
@@ -45,21 +47,25 @@ export default function Method() {
             </Col>
             <Col sm={12}>
               <p className={style.description}>
-                Ti invio report dettagliati con le statistiche e le analisi, per
-                mostrarti i risultati ottenuti e le possibili azioni da
-                intraprendere.
+                Fornisco report dettagliati e statistiche approfondite,
+                permettendoti di visualizzare i risultati ottenuti. Questi dati
+                ti aiuteranno a comprendere meglio le performance del tuo sito
+                web e dei tuoi canali social, e a identificare le strategie più
+                efficaci per il tuo business.
               </p>
             </Col>
           </Row>
           <Row className="flex-column flex-sm-row">
             <Col sm={12} className={style.name}>
-              Contenuti unici <div className={style.underline}></div>
+              Servizio completo <div className={style.underline}></div>
             </Col>
             <Col sm={12}>
               <p className={style.description}>
-                Creo contenuti unici e personalizzati per catturare
-                l`&lsquo;`attenzione del tuo pubblico, promuovendo
-                l`&lsquo;`interazione e l`&lsquo;`engagement con il tuo brand.
+                Offro un servizio completo che include la creazione del tuo sito
+                web e la gestione dei tuoi social media. Questo approccio
+                integrato garantisce coerenza grafica e comunicativa,
+                migliorando l&apos;immagine del tuo brand e l&apos;esperienza
+                dell&apos;utente.
               </p>
             </Col>
           </Row>
@@ -75,6 +81,21 @@ export default function Method() {
                 sviluppo, ascoltando attentamente le tue esigenze e fornendo
                 consulenza esperta, con la possibilità di seguire il progetto in
                 ogni sua fase.
+              </p>
+            </Col>
+          </Row>
+          <Row className="flex-column flex-sm-row">
+            <Col sm={12} className={style.name}>
+              Contenuti unici
+              <div className={style.underline}></div>
+            </Col>
+            <Col sm={12}>
+              <p className={style.description}>
+                Creo contenuti unici e coinvolgenti, studiati per catturare
+                l&apos;attenzione del tuo pubblico e stimolare
+                l&apos;interazione. Questo approccio personalizzato ti permette
+                di distinguerti dalla concorrenza e di creare un legame più
+                forte con i tuoi clienti.
               </p>
             </Col>
           </Row>

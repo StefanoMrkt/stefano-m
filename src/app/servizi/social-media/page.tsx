@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 import Navbar from "../../../components/Navbar/Navbar";
 import HeroSocial from "../../../components/HeroSocial/HeroSocial";
 import ServiceFor from "../../../components/ServiceFor/ServiceFor";
@@ -12,11 +14,32 @@ import Smart1 from "../../../Images/Smart1.png";
 import Smart2 from "../../../Images/Smart2.png";
 import Smart3 from "../../../Images/Smart3.png";
 import Smart4 from "../../../Images/Smart4.png";
-import { Nav } from "react-bootstrap";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Stefano Montemarli - Social Media Manager",
+  description: "Migliora la tua presenza online con il Social Media Marketing",
+};
 
 export default function SocialMediaPage() {
   return (
     <>
+      <head>
+        <meta property="og:title" content="Stefano Montemarli" />
+        <meta
+          property="og:description"
+          content="Migliora la tua presenza online con il Social Media Marketing"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="https://1drv.ms/i/s!AmWaVBl9p_dCgWiemacZx7YdEJm6?e=OpigS2"
+        />
+        <meta
+          property="og:url"
+          content="https://www.stefanomontemarli.it/servizi/social"
+        />
+      </head>
       <Navbar />
       <HeroSocial />
       <ServiceFor

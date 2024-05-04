@@ -10,7 +10,9 @@ export default function HeroWeb() {
     <div className={style.heroDiv} id="Home">
       <div className={style.heroSx}>
         <div className={style.myWork}>Web Design</div>
-        <div className={style.myName}>Esperienza Web al tuo servizio</div>
+        <div className={` ${style.myName} mulish`}>
+          Esperienza Web al tuo servizio
+        </div>
         <div className={style.heroDown}>
           <div className={style.line}></div>
           <p className={style.myDescription}>

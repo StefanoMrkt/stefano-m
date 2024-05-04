@@ -10,7 +10,7 @@ export default function HeroFree() {
     <div className={style.heroDiv} id="Home">
       <div className={style.heroSx}>
         <div className={style.myWork}>Lezione gratuita</div>
-        <div className={style.myName}>
+        <div className={` ${style.myName} mulish`}>
           Scarica la <span className={style.bold}>videolezione gratuita </span>
           per ottimizzare il tuo sito web attira clienti
         </div>

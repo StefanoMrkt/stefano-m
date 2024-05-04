@@ -10,7 +10,7 @@ import MatteoMangili from "../../Images/Recensioni/MatteoMangili.png";
 export default function Opinion() {
   return (
     <div className={style.container} id="Review">
-      <h2 className={style.title}>Recensioni</h2>
+      <h2 className={` ${style.title} mulish`}>Recensioni</h2>
 
       <SingleReview
         Testo="Lavorare con Stefano è stato molto utile perché mi ha permesso di risparmiare molto tempo, utile per la mia attività, oltre che a consentirmi 

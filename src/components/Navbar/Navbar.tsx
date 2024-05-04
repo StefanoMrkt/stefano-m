@@ -89,7 +89,7 @@ export default function NavbarComponent() {
       <Navbar expand="lg" className="mynav">
         <Container id="navbarTop" className={style.navbarTop}>
           <Navbar.Brand className={style.navTitle}>
-            <Link className={style.logo} href="/">
+            <Link className={` ${style.logo} mulish`} href="/">
               Stefano Montemarli
             </Link>
           </Navbar.Brand>
@@ -97,7 +97,11 @@ export default function NavbarComponent() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <div className={style.divPages}>
-                <Link href="/" onClick={handleHome} className={style.navPage}>
+                <Link
+                  href="/"
+                  onClick={handleHome}
+                  className={` ${style.navPage} mulish`}
+                >
                   Home
                   <div
                     className={
@@ -108,7 +112,7 @@ export default function NavbarComponent() {
                 <Link
                   href="/servizi/web-design"
                   onClick={handleWeb}
-                  className={style.navPage}
+                  className={` ${style.navPage} mulish`}
                 >
                   Web Design
                   <div
@@ -120,7 +124,7 @@ export default function NavbarComponent() {
                 <Link
                   href="/servizi/social-media"
                   onClick={handleSocial}
-                  className={style.navPage}
+                  className={` ${style.navPage} mulish`}
                 >
                   Social Media
                   <div

@@ -149,7 +149,7 @@ export default function Strategy({
 
   return (
     <div className={style.container} id="Strategy">
-      <h2 className={style.title}>Il Metodo</h2>
+      <h2 className={` ${style.title} mulish`}>Il Metodo</h2>
       <div className={style.menu}>
         <Image src={Freccia} alt="" className={style.freccia} />
         <Image src={Puntini} alt="" className={style.puntini} />

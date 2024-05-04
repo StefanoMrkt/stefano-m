@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 import Navbar from "../../../components/Navbar/Navbar";
 import Footer from "../../../components/Footer/Footer";
 import HeroWeb from "../../../components/HeroWeb/HeroWeb";
@@ -11,10 +13,33 @@ import Laptop1 from "../../../Images/Laptop1.png";
 import Laptop2 from "../../../Images/Laptop2.png";
 import Laptop3 from "../../../Images/Laptop3.png";
 import Laptop4 from "../../../Images/Laptop4.png";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Stefano Montemarli - Web Designer",
+  description:
+    "Migliora la tua presenza online con un sito web professionale e ottimizzato",
+};
 
 export default function WebDesignPage() {
   return (
     <>
+      <head>
+        <meta property="og:title" content="Stefano Montemarli" />
+        <meta
+          property="og:description"
+          content="Migliora la tua presenza online con un sito web professionale e ottimizzato"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="https://1drv.ms/i/s!AmWaVBl9p_dCgWiemacZx7YdEJm6?e=OpigS2"
+        />
+        <meta
+          property="og:url"
+          content="https://www.stefanomontemarli.it/servizi/web"
+        />
+      </head>
       <Navbar />
       <HeroWeb />
       <ServiceFor

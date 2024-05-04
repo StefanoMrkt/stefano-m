@@ -13,7 +13,7 @@ export default function Method() {
   return (
     <>
       <div className={style.container} id="Method">
-        <h2 className={style.title}>Cosa ti svelerò</h2>
+        <h2 className={` ${style.title} mulish`}>Cosa ti svelerò</h2>
 
         <Container className={style.grid}>
           <Row className="flex-column flex-sm-row">

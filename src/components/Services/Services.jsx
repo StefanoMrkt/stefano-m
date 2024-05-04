@@ -33,12 +33,12 @@ export default function Services() {
 
   return (
     <div className={style.container} id="Services">
-      <h2 className={style.title}>I miei servizi</h2>
+      <h2 className={` ${style.title} mulish`}>I miei servizi</h2>
       <Image src={Freccia} className={style.freccia} alt="" />
 
       <div className={style.divService}>
         <Link
-          href="/servizi/web"
+          href="/servizi/web-design"
           className={style.imgService}
           onMouseEnter={() => setIsHovered1(true)}
           onMouseLeave={() => setIsHovered1(false)}
@@ -75,7 +75,7 @@ export default function Services() {
           <p className={style.description2}>I tuoi social gestiti al meglio</p>
         </div>
         <Link
-          href="/servizi/social"
+          href="/servizi/social-media"
           className={style.imgService}
           onMouseEnter={() => setIsHovered2(true)}
           onMouseLeave={() => setIsHovered2(false)}

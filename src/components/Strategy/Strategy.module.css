@@ -10,7 +10,7 @@
 .title {
   margin-bottom: 65px;
   font-size: 95px;
-  font-family: "Mulish", serif;
+  font-weight: 600;
   display: flex;
   margin-left: auto;
   margin-bottom: 3rem;
@@ -170,6 +170,11 @@ rotate: -12deg;
 
 
 @media screen and (max-width: 1100px) {
+.container {
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
   .title {
     font-size: 43px;
   }

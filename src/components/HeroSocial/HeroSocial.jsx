@@ -10,7 +10,9 @@ export default function HeroSocial() {
     <div className={style.heroDiv} id="Home">
       <div className={style.heroSx}>
         <div className={style.myWork}>Social Media Manager</div>
-        <div className={style.myName}>Esperienza social al tuo servizio</div>
+        <div className={` ${style.myName} mulish`}>
+          Esperienza social al tuo servizio
+        </div>
         <div className={style.heroDown}>
           <div className={style.line}></div>
           <p className={style.myDescription}>

@@ -34,9 +34,13 @@ export default function Contacts() {
   return (
     <div className={style.container} id="Contacts">
       {isSubmitted ? (
-        <h2 className={style.title}>Grazie per aver inviato il modulo</h2>
+        <h2 className={` ${style.title} mulish`}>
+          Grazie per aver inviato il modulo
+        </h2>
       ) : (
-        <h2 className={style.title}>Ottieni la videolezione gratuita</h2>
+        <h2 className={` ${style.title} mulish`}>
+          Ottieni la videolezione gratuita
+        </h2>
       )}
 
       {isSubmitted ? (
