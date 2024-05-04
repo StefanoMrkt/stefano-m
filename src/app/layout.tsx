@@ -1,5 +1,7 @@
 import "./globals.css";
 import { Mulish } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
+
 import Script from "next/script";
 import {
   IubendaProvider,
@@ -43,6 +45,7 @@ export default function RootLayout({
         {/* <IubendaProvider bannerConfig={iubendaBannerConfig}> */}
         {children}
         {/* </IubendaProvider> */}
+        <Analytics />
       </body>
       <Script
         async
