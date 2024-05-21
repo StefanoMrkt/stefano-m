@@ -42,9 +42,9 @@ export default function RootLayout({
   return (
     <html>
       <body className={mulish_init.variable}>
-        {/* <IubendaProvider bannerConfig={iubendaBannerConfig}> */}
-        {children}
-        {/* </IubendaProvider> */}
+        <IubendaProvider bannerConfig={iubendaBannerConfig}>
+          {children}
+        </IubendaProvider>
         <Analytics />
       </body>
       <Script
