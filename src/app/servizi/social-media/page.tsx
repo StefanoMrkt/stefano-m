@@ -27,7 +27,7 @@ export default function SocialMediaPage() {
       <head>
         <link
           rel="canonical"
-          href="https://www.stefanomontemarli.it//servizi/social-media"
+          href="https://www.stefanomontemarli.it/servizi/social-media"
         />
 
         <meta property="og:title" content="Stefano Montemarli" />

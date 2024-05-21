@@ -27,7 +27,7 @@ export default function WebDesignPage() {
       <head>
         <link
           rel="canonical"
-          href="https://www.stefanomontemarli.it//servizi/web-design"
+          href="https://www.stefanomontemarli.it/servizi/web-design"
         />
         <meta property="og:title" content="Stefano Montemarli" />
         <meta
