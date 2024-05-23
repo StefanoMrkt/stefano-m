@@ -23,8 +23,10 @@ export default function Method() {
             </Col>
             <Col sm={12}>
               <p className={style.description}>
-                Come ottimizzare il tuo sito web per essere indicizzato al
-                meglio dai motori di ricerca e raggiungere i tuoi clienti
+                Scopri come ottimizzare il tuo sito web per migliorare la sua
+                visibilità sui motori di ricerca. Impara a utilizzare le
+                tecniche SEO per aumentare il traffico sul tuo sito e
+                raggiungere più efficacemente i tuoi clienti.
               </p>
             </Col>
           </Row>
@@ -34,8 +36,10 @@ export default function Method() {
             </Col>
             <Col sm={12}>
               <p className={style.description}>
-                Come trasformare il tuo sito web in un posto in cui i tuoi
-                clienti si sentano incuriositi da te e dalla tua attività
+                Trasforma il tuo sito web in un luogo che suscita curiosità e
+                interesse. Scopri come creare contenuti che attirano
+                l&apos;attenzione dei tuoi visitatori e li spingono a saperne di
+                più su di te e sulla tua attività.
               </p>
             </Col>
           </Row>
@@ -45,8 +49,10 @@ export default function Method() {
             </Col>
             <Col sm={12}>
               <p className={style.description}>
-                Come rendere il tuo sito web graficamente accattivante, in modo
-                da catturare l&apos;attenzione dei tuoi clienti
+                Impara come rendere il tuo sito web graficamente accattivante.
+                Scopri come utilizzare il design e le immagini per catturare
+                l&apos;attenzione dei tuoi visitatori e migliorare la loro
+                esperienza sul tuo sito.
               </p>
             </Col>
           </Row>
@@ -56,8 +62,10 @@ export default function Method() {
             </Col>
             <Col sm={12}>
               <p className={style.description}>
-                Come creare contenuti coinvolgenti e di valore per i tuoi
-                clienti e per i motori di ricerca
+                Scopri come creare contenuti coinvolgenti e di valore per i tuoi
+                clienti. Impara a scrivere articoli, blog e descrizioni di
+                prodotti che siano interessanti per i tuoi visitatori e che li
+                aiutino a comprendere meglio i tuoi prodotti o servizi.
               </p>
             </Col>
           </Row>
@@ -68,9 +76,10 @@ export default function Method() {
             </Col>
             <Col sm={12}>
               <p className={style.description}>
-                Come creare contenuti che siano ottimizzati per i motori di
-                ricerca e come utilizzare le parole chiave per essere trovato
-                dai tuoi clienti ideali
+                Impara come creare contenuti che siano ottimizzati per i motori
+                di ricerca. Scopri come utilizzare le parole chiave e le
+                tecniche SEO per migliorare la visibilità del tuo sito web e
+                raggiungere i tuoi clienti ideali.
               </p>
             </Col>
           </Row>
@@ -80,8 +89,10 @@ export default function Method() {
             </Col>
             <Col sm={12}>
               <p className={style.description}>
-                Trova il tuo target di riferimento e capisci come raggiungerlo e
-                fidelizzarlo con il tuo sito web
+                Scopri come identificare e raggiungere il tuo target di
+                riferimento. Impara a comprendere le esigenze e le preferenze
+                dei tuoi clienti ideali e a creare un sito web che risponda alle
+                loro esigenze e li fidelizzi.
               </p>
             </Col>
           </Row>
