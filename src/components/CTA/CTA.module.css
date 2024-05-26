@@ -29,13 +29,11 @@
 .title {
     font-size: 30px;
     color: white;
-    font-family: "Mulish", sans-serif;
     text-align: center;
 }
 
 .description {
     font-size: 17px;
-    font-family: "Maitree", serif;
     margin-top: 20px;
     margin-bottom: 20px;
     color: rgb(162, 162, 162);
@@ -52,7 +50,6 @@
   border: solid 2px #fc3c3c;
   color: white;
   width: 30%;
-  font-family: "Barlow Condensed", sans-serif;
   text-decoration: none;
   transition: scale 0.3s ease;
 }

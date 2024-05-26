@@ -63,7 +63,6 @@
   font-size: 35px;
   display: flex;
   justify-content: center;
-  font-family: "Barlow Condensed", sans-serif;
   font-weight: 600;
 }
 
@@ -73,13 +72,11 @@
   font-weight: 400;
   margin: 0;
   margin-left: 8px;
-  font-family: "Barlow Condensed", sans-serif;
   color: var(--color-blu);
 }
 
 .strategyDescription {
   width: 100%;
-  font-family: "Maitree", sans-serif;
   font-size: 20px;
   margin-left: 35px;
   font-weight: 500;
@@ -88,7 +85,6 @@
 
 .numb {
   font-size: 34px;
-  font-family: "Barlow Condensed", sans-serif;
   font-weight: 600;
  color: rgb(129, 129, 129)
 }

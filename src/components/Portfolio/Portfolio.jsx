@@ -26,7 +26,7 @@ export default function Portfolio() {
               </button>
             </a>
 
-            <h3 className={style.name}>Pollution in the World</h3>
+            <h3 className={`${style.name} barlow`}>Pollution in the World</h3>
           </div>
 
           <div className={style.progettoDx}>
@@ -40,7 +40,7 @@ export default function Portfolio() {
               </button>
             </a>
 
-            <h3 className={style.name}>Creazioni Wonderland</h3>
+            <h3 className={`${style.name} barlow`}>Creazioni Wonderland</h3>
           </div>
         </div>
         <div className={style.color1}></div>

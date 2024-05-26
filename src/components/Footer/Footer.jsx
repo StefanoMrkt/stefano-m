@@ -5,9 +5,9 @@ export default function Footer() {
     <footer className={style.container}>
       <div className={style.line}></div>
       <div className={style.text}>
-        <h4 className={style.name}>Stefano Montemarli</h4>
+        <h4 className={`${style.name} mulish`}>Stefano Montemarli</h4>
         <div className={style.info}>
-          <p className={style.grey}>P. IVA: IT07340940480</p>
+          <p className={`${style.grey} mulish`}>P. IVA: IT07340940480</p>
         </div>
       </div>
     </footer>

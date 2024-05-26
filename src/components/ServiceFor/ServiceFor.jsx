@@ -28,26 +28,28 @@ export default function ServiceFor({
         </div>
 
         <div className={style.Dx}>
-          <p className={style.MainDescription}>{parse(secondaDescrizione)}</p>
+          <p className={`${style.MainDescription} maitree`}>
+            {parse(secondaDescrizione)}
+          </p>
           <div className={style.point}>
             <Image className={style.icona} src={icona1} alt=""></Image>
-            <p className={style.secondDescription}>{titolo1}</p>
+            <p className={`${style.secondDescription} maitree`}>{titolo1}</p>
           </div>
           <div className={style.point}>
             <Image className={style.icona} src={icona1} alt=""></Image>
-            <p className={style.secondDescription}>{titolo2}</p>
+            <p className={`${style.secondDescription} maitree`}>{titolo2}</p>
           </div>
           <div className={style.point}>
             <Image className={style.icona} src={icona1} alt=""></Image>
-            <p className={style.secondDescription}>{titolo3}</p>
+            <p className={`${style.secondDescription} maitree`}>{titolo3}</p>
           </div>
           <div className={style.point}>
             <Image className={style.icona} src={icona1} alt=""></Image>
-            <p className={style.secondDescription}>{titolo4}</p>
+            <p className={`${style.secondDescription} maitree`}>{titolo4}</p>
           </div>
           <div className={style.point}>
             <Image className={style.icona} src={icona1} alt=""></Image>
-            <p className={style.secondDescription}>{titolo5}</p>
+            <p className={`${style.secondDescription} maitree`}>{titolo5}</p>
           </div>
         </div>
       </div>

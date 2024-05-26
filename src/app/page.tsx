@@ -9,6 +9,7 @@ import Services from "../components/Services/Services";
 import Method from "../components/Method/Method";
 import Portfolio from "../components/Portfolio/Portfolio";
 import Opinion from "../components/Opinion/Opinion";
+import Blog from "../components/Blog/Blog";
 import Contact from "../components/Contact/Contacts";
 import Footer from "../components/Footer/Footer";
 import CTA from "../components/CTA/CTA";
@@ -48,6 +49,7 @@ export default function Home() {
       <CTA />
       <Portfolio />
       <Opinion />
+      <Blog />
       <Contact />
       <FollowMe />
       <Footer />

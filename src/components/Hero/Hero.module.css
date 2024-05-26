@@ -51,6 +51,7 @@
   scale: 0.35;
   background-color: transparent;
   border-color: transparent;
+  z-index: 150;
 }
 
 .play:hover {
@@ -61,7 +62,7 @@
   position: absolute;
   top: 0%;
   right: 0%;
-  z-index: 16;
+  z-index: 150;
   scale: 0.2;
   opacity: 0;
   transition: transform 0.3s, opacity 0.4s;

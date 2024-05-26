@@ -79,9 +79,6 @@
 }
 }
 
-
-
-
 .textService1,
 .textService2 {
   width: 50%;
@@ -119,7 +116,6 @@
   font-size: 64px;
   margin-top: 25px;
   font-weight: 600;
-  font-family: "Barlow Condensed", sans-serif;
   display: inline-block;
 }
 
@@ -127,19 +123,16 @@
   font-size: 64px;
   font-weight: 400;
   margin-top: 25px;
-  font-family: "Barlow Condensed", sans-serif;
   font-weight: 600;
 }
 
 .description1 {
   font-size: 29px;
-  font-family: "Barlow Condensed", sans-serif;
   text-align: left;
 }
 
 .description2 {
   font-size: 29px;
-  font-family: "Barlow Condensed", sans-serif;
   text-align: end;
 }
 
@@ -274,7 +267,7 @@
     font-size: 20px;
     text-align: left;
     margin-bottom: 45px;
-    margin-top: -15px;
+    margin-top: -20px;
   }
 
    .imgService {
@@ -294,8 +287,6 @@
     margin-right: 0px;
   
   }
-
-  
 }
 
 .puntini {
@@ -304,7 +295,7 @@
   right: 0%;
   rotate: 90deg;
   top: 50%;
-  opacity: 0.3;
+  opacity: 0.1;
   z-index: -1;
 }
 

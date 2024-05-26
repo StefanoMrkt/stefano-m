@@ -12,6 +12,14 @@
   font-family: var(--font-mulish);
 }
 
+.barlow {
+  font-family: var(--font-barlow-condensed);
+}
+
+.maitree {
+  font-family: var(--font-maitree);
+}
+
 *{
   margin: 0;
   padding: 0;

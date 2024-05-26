@@ -48,14 +48,14 @@ export default function Services() {
         </Link>
 
         <div className={style.textService1}>
-          <h3 ref={titleRef1} className={style.serviceTitle1}>
+          <h3 ref={titleRef1} className={`${style.serviceTitle1} barlow`}>
             Web Design
           </h3>
           <div
             ref={underlineRef1}
             className={`${style.underline} ${isHovered1 ? style.show : ""}`}
           ></div>
-          <p className={style.description1}>
+          <p className={`${style.description1} barlow`}>
             Siti web professionali e ottimizzati
           </p>
         </div>
@@ -64,7 +64,7 @@ export default function Services() {
       <div className={style.divService}>
         <div className={style.textService2}>
           <div className={style.titleContainer}>
-            <h3 ref={titleRef2} className={style.serviceTitle2}>
+            <h3 ref={titleRef2} className={`${style.serviceTitle2} barlow`}>
               Social Media
             </h3>
             <div
@@ -72,7 +72,9 @@ export default function Services() {
               className={`${style.underline} ${isHovered2 ? style.show : ""}`}
             ></div>
           </div>
-          <p className={style.description2}>I tuoi social gestiti al meglio</p>
+          <p className={`${style.description2} barlow`}>
+            I tuoi social gestiti al meglio
+          </p>
         </div>
         <Link
           href="/servizi/social-media"

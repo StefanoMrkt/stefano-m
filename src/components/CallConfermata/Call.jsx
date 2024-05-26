@@ -6,12 +6,12 @@ import Bolla from "../../Images/Bolla.png";
 export default function Call() {
   return (
     <div className={style.container}>
-      <h1 className={style.confirmed}>Call prenotata</h1>
-      <h2 className={style.subtitle}>
+      <h1 className={`${style.confirmed} mulish`}>Call prenotata</h1>
+      <h2 className={`${style.subtitle} mulish`}>
         Riceverai un&apos;email come conferma all&apos;indirizzo indicato
       </h2>
 
-      <h3 className={style.regalo}>
+      <h3 className={`${style.regalo} barlow`}>
         Guarda questo video per prepararti alla tua call
       </h3>
       <iframe

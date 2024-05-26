@@ -140,7 +140,6 @@
   border: solid 2px #fc3c3c;
   color: white;
   margin-left: 30px;
-  font-family: "Barlow Condensed", sans-serif;
  
   text-decoration: none;
   transition: scale 0.3s ease;
@@ -173,6 +172,8 @@
     margin-right: 30px;
     margin-left: 0px;
     font-size: 12px;
+    margin-top: 10px;
+    font-size: 17px;
   }
 
   .contatti {

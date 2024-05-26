@@ -35,7 +35,7 @@ export default function HeroFree() {
         />
         <Image src={Indice} alt="Indice" className={style.serviceImage2} />
 
-        <a href="#Contacts" className={style.download}>
+        <a href="#Contacts" className={`${style.download} barlow`}>
           Scarica ora
         </a>
 

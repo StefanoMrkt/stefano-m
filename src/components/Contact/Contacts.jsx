@@ -53,7 +53,7 @@ export default function Contacts() {
       <h2 className={` ${style.title} mulish`}>Contattami</h2>
 
       <form className={style.form} onSubmit={sendEmail} ref={form}>
-        <label className={style.label} htmlFor="name">
+        <label className={`${style.label} barlow`} htmlFor="name">
           Nome e Cognome*
         </label>
         <input
@@ -63,7 +63,7 @@ export default function Contacts() {
           required="true"
           placeholder="Inserisci il tuo nome completo"
         />
-        <label className={style.label} htmlFor="email">
+        <label className={`${style.label} barlow`} htmlFor="email">
           Email*
         </label>
         <input
@@ -74,7 +74,7 @@ export default function Contacts() {
           placeholder="Inserisci il tuo indirizzo di posta elettronica"
         />
 
-        <label className={style.label} htmlFor="message">
+        <label className={`${style.label} barlow`} htmlFor="message">
           Messaggio*
         </label>
         <textarea
@@ -86,7 +86,7 @@ export default function Contacts() {
 
         <div className={style.btForm}>
           <input
-            className={style.invia}
+            className={`${style.invia} barlow`}
             type="submit"
             value="Invia"
             id="button"

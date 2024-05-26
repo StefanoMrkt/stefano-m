@@ -44,7 +44,7 @@ export default function Contacts() {
       )}
 
       {isSubmitted ? (
-        <p className={style.sended}>
+        <p className={`${style.sended} barlow`}>
           Riceverai la videolezione sulla tua casella email
         </p>
       ) : (
@@ -55,7 +55,7 @@ export default function Contacts() {
           method="POST"
           onSubmit={handleSubmit}
         >
-          <label className={style.label} htmlFor="fields[name]">
+          <label className={`${style.label} barlow`} htmlFor="fields[name]">
             Nome*
           </label>
           <input
@@ -65,7 +65,10 @@ export default function Contacts() {
             required="true"
             placeholder="Inserisci il tuo nome"
           />
-          <label className={style.label} htmlFor="fields[last_name]">
+          <label
+            className={`${style.label} barlow`}
+            htmlFor="fields[last_name]"
+          >
             Cognome*
           </label>
           <input
@@ -76,7 +79,7 @@ export default function Contacts() {
             placeholder="Inserisci il tuo cognome"
           />
 
-          <label className={style.label} htmlFor="fields[email]">
+          <label className={`${style.label} barlow`} htmlFor="fields[email]">
             Email*
           </label>
           <input
@@ -86,7 +89,7 @@ export default function Contacts() {
             required="true"
             placeholder="Inserisci il tuo indirizzo di posta elettronica"
           />
-          <label className={style.label} htmlFor="fields[phone]">
+          <label className={`${style.label} barlow`} htmlFor="fields[phone]">
             Telefono*
           </label>
           <input
@@ -99,7 +102,7 @@ export default function Contacts() {
 
           <div className={style.btForm}>
             <input
-              className={style.invia}
+              className={`${style.invia} barlow`}
               type="submit"
               value="Ricevi la tua lezione gratuita!"
               id="button"

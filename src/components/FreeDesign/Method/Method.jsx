@@ -17,7 +17,7 @@ export default function Method() {
 
         <Container className={style.grid}>
           <Row className="flex-column flex-sm-row">
-            <Col sm={12} className={style.name}>
+            <Col sm={12} className={`${style.name} barlow`}>
               Ottimizzazione
               <div className={style.underline}></div>
             </Col>
@@ -31,7 +31,7 @@ export default function Method() {
             </Col>
           </Row>
           <Row className="flex-column flex-sm-row">
-            <Col sm={12} className={style.name}>
+            <Col sm={12} className={`${style.name} barlow`}>
               Curiosità <div className={style.underline}></div>
             </Col>
             <Col sm={12}>
@@ -44,7 +44,7 @@ export default function Method() {
             </Col>
           </Row>
           <Row className="flex-column flex-sm-row">
-            <Col sm={12} className={style.name}>
+            <Col sm={12} className={`${style.name} barlow`}>
               Grafica <div className={style.underline}></div>
             </Col>
             <Col sm={12}>
@@ -57,7 +57,7 @@ export default function Method() {
             </Col>
           </Row>
           <Row className="flex-column flex-sm-row">
-            <Col sm={12} className={style.name}>
+            <Col sm={12} className={`${style.name} barlow`}>
               Contenuti <div className={style.underline}></div>
             </Col>
             <Col sm={12}>
@@ -70,7 +70,7 @@ export default function Method() {
             </Col>
           </Row>
           <Row className="flex-column flex-sm-row">
-            <Col sm={12} className={style.name}>
+            <Col sm={12} className={`${style.name} barlow`}>
               SEO oriented
               <div className={style.underline}></div>
             </Col>
@@ -84,7 +84,7 @@ export default function Method() {
             </Col>
           </Row>
           <Row className="flex-column flex-sm-row">
-            <Col sm={12} className={style.name}>
+            <Col sm={12} className={`${style.name} barlow`}>
               Target <div className={style.underline}></div>
             </Col>
             <Col sm={12}>

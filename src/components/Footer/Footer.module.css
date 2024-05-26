@@ -19,9 +19,6 @@
     justify-content: space-between;
 }
 
-.name {
-      font-family: "Mulish", sans-serif;
-}
 
 .info  {
     margin-left: 18px;
@@ -34,7 +31,6 @@
     font-size: 16px;
     margin-left: 22px;
     font-weight: 400;
-    font-family: "Mulish", sans-serif;
 }
 
 @media screen and (max-width: 900px) {

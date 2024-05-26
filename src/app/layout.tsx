@@ -1,5 +1,5 @@
 import "./globals.css";
-import { Mulish } from "next/font/google";
+import { Mulish, Barlow_Condensed, Maitree } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 
 import Script from "next/script";
@@ -13,6 +13,18 @@ const mulish_init = Mulish({
   subsets: ["latin"],
   weight: ["200", "400", "500", "600", "700", "1000"],
   variable: "--font-mulish",
+});
+
+const barlow_condensed_init = Barlow_Condensed({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
+  variable: "--font-barlow-condensed",
+});
+
+const maitree_init = Maitree({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-maitree",
 });
 
 const iubendaBannerConfig: IubendaCookieSolutionBannerConfigInterface = {
@@ -41,7 +53,7 @@ export default function RootLayout({
 }>) {
   return (
     <html>
-      <body className={mulish_init.variable}>
+      <body className={`${mulish_init.variable} ${barlow_condensed_init}`}>
         <IubendaProvider bannerConfig={iubendaBannerConfig}>
           {children}
         </IubendaProvider>

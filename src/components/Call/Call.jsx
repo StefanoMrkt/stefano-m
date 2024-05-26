@@ -37,9 +37,11 @@ export default function Call() {
   return (
     <div className={style.div}>
       <div ref={div} className={style.call} id="Call">
-        <div className={style.title}>Prenota una consulenza gratuita</div>
+        <div className={`${style.title} barlow`}>
+          Prenota una consulenza gratuita
+        </div>
         <a
-          className={style.contatti}
+          className={`${style.contatti} barlow`}
           href="https://cal.com/stefanom/call-conoscitiva"
         >
           Inizia

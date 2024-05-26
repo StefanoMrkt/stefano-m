@@ -18,7 +18,7 @@ export default function Method() {
 
         <Container className={style.grid}>
           <Row className="flex-column flex-sm-row">
-            <Col sm={12} className={style.name}>
+            <Col sm={12} className={`${style.name} barlow`}>
               Metodo SPARK <div className={style.underline}></div>
             </Col>
             <Col sm={12}>
@@ -30,7 +30,7 @@ export default function Method() {
                 tuo brand.
               </p>
             </Col>
-            <Col sm={12} className={style.name}>
+            <Col sm={12} className={`${style.name} barlow`}>
               Creatività <div className={style.underline}></div>
             </Col>
             <Col sm={12}>
@@ -42,7 +42,7 @@ export default function Method() {
             </Col>
           </Row>
           <Row className="flex-column flex-sm-row">
-            <Col sm={12} className={style.name}>
+            <Col sm={12} className={`${style.name} barlow`}>
               Report e statistiche <div className={style.underline}></div>
             </Col>
             <Col sm={12}>
@@ -56,7 +56,7 @@ export default function Method() {
             </Col>
           </Row>
           <Row className="flex-column flex-sm-row">
-            <Col sm={12} className={style.name}>
+            <Col sm={12} className={`${style.name} barlow`}>
               Servizio completo <div className={style.underline}></div>
             </Col>
             <Col sm={12}>
@@ -71,7 +71,7 @@ export default function Method() {
           </Row>
 
           <Row className="flex-column flex-sm-row">
-            <Col sm={12} className={style.name}>
+            <Col sm={12} className={`${style.name} barlow`}>
               Coinvolgimento
               <div className={style.underline}></div>
             </Col>
@@ -85,7 +85,7 @@ export default function Method() {
             </Col>
           </Row>
           <Row className="flex-column flex-sm-row">
-            <Col sm={12} className={style.name}>
+            <Col sm={12} className={`${style.name} barlow`}>
               Contenuti unici
               <div className={style.underline}></div>
             </Col>

@@ -164,8 +164,10 @@ export default function Strategy({
           >
             <a className={style.search} href={item.href}>
               <div className={style.titleMenu}>
-                <div className={style.number}>{item.number}</div>
-                <h4 className={style.description}>{item.description}</h4>
+                <div className={`${style.number} barlow`}>{item.number}</div>
+                <h4 className={`${style.description} barlow`}>
+                  {item.description}
+                </h4>
               </div>
               <div
                 className={style.underline}
@@ -193,10 +195,10 @@ export default function Strategy({
                   </div>
                   <div className={style.text}>
                     <div
-                      className={` ${style.strategyDescription}`}
+                      className={` ${style.strategyDescription} maitree`}
                       ref={descriptionRefs.current[0]}
                     >
-                      <div className={style.numb}>
+                      <div className={`${style.numb} barlow`}>
                         {mItems[0].number + mItems[0].description}
                       </div>
                       {parse(descrizione1)}
@@ -214,10 +216,10 @@ export default function Strategy({
                   </div>
                   <div className={style.text}>
                     <div
-                      className={style.strategyDescription}
+                      className={`${style.strategyDescription} maitree`}
                       ref={descriptionRefs.current[1]}
                     >
-                      <div className={style.numb}>
+                      <div className={`${style.numb} barlow`}>
                         {mItems[1].number + mItems[1].description}
                       </div>
                       {parse(descrizione2)}
@@ -235,10 +237,10 @@ export default function Strategy({
                   </div>
                   <div className={style.text}>
                     <div
-                      className={style.strategyDescription}
+                      className={`${style.strategyDescription} maitree`}
                       ref={descriptionRefs.current[2]}
                     >
-                      <div className={style.numb}>
+                      <div className={`${style.numb} barlow`}>
                         {mItems[2].number + mItems[2].description}
                       </div>
                       {parse(descrizione3)}
@@ -259,10 +261,10 @@ export default function Strategy({
                   </div>
                   <div className={style.text}>
                     <div
-                      className={style.strategyDescription}
+                      className={`${style.strategyDescription} maitree`}
                       ref={descriptionRefs.current[3]}
                     >
-                      <div className={style.numb}>
+                      <div className={`${style.numb} barlow`}>
                         {mItems[3].number + mItems[3].description}
                       </div>
                       {parse(descrizione4)}

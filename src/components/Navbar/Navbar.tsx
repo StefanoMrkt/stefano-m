@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import style from "./Hero.module.css";
+import style from "./Navbar.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Switch from "@mui/material/Switch";
 import { styled } from "@mui/material/styles";
@@ -154,7 +154,7 @@ export default function NavbarComponent() {
               >
                 Scuro
               </p> */}
-              <a className={style.contatti} href="#Contacts">
+              <a className={`${style.contatti} barlow`} href="#Contacts">
                 Contattami
               </a>
             </div>
