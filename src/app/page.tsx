@@ -53,7 +53,7 @@ export default function Home() {
       <CTA />
       <Portfolio />
       <Opinion />
-      <Blog />
+      {/* <Blog /> */}
       <Contact />
       <FollowMe />
       <Footer />
