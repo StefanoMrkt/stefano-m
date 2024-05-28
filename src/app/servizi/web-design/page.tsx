@@ -16,9 +16,9 @@ import Laptop4 from "../../../Images/Laptop4.png";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Stefano Montemarli - Web Designer",
+  title: "Stefano Montemarli - Web Designer Professionista",
   description:
-    "Migliora la tua presenza online con un sito web professionale e ottimizzato",
+    "Web Designer professionista, creo siti web ottimizzati e personalizzati per migliorare la tua presenza online e aumentare la tua visibilità.",
 };
 
 export default function WebDesignPage() {
@@ -41,7 +41,7 @@ export default function WebDesignPage() {
         />
         <meta
           property="og:url"
-          content="https://www.stefanomontemarli.it/servizi/web"
+          content="https://www.stefanomontemarli.it/servizi/web-design"
         />
       </head>
       <Navbar />

@@ -17,8 +17,9 @@ import Smart4 from "../../../Images/Smart4.png";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Stefano Montemarli - Social Media Manager",
-  description: "Migliora la tua presenza online con il Social Media Marketing",
+  title: "Stefano Montemarli - Esperto Social Media Manager",
+  description:
+    "Esperto Social Media Manager, miglioraro la tua presenza online attraverso strategie di Social Media Marketing efficaci e personalizzate.",
 };
 
 export default function SocialMediaPage() {
@@ -42,7 +43,7 @@ export default function SocialMediaPage() {
         />
         <meta
           property="og:url"
-          content="https://www.stefanomontemarli.it/servizi/social"
+          content="https://www.stefanomontemarli.it/servizi/social-media"
         />
       </head>
       <Navbar />

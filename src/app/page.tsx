@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
 
-import Navabar from "../components/Navbar/Navbar";
+import Navbar from "../components/Navbar/Navbar";
 import Hero from "../components/Hero/Hero";
 import About from "../components/About/About";
 import Services from "../components/Services/Services";
@@ -44,7 +44,7 @@ export default function Home() {
         />
         <link rel="canonical" href="https://www.stefanomontemarli.it" />
       </head>
-      <Navabar />
+      <Navbar />
       <Call />
       <Hero />
       <About />
