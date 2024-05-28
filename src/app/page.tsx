@@ -38,6 +38,10 @@ export default function Home() {
           content="https://1drv.ms/i/s!AmWaVBl9p_dCgWiemacZx7YdEJm6?e=OpigS2"
         />
         <meta property="og:url" content="https://www.stefanomontemarli.it" />
+        <meta
+          name="google-site-verification"
+          content="0ijiX29zHbhM4fP7fjQ6Imgd3PbpjZ2Xir1rKPR6eZM"
+        />
         <link rel="canonical" href="https://www.stefanomontemarli.it" />
       </head>
       <Navabar />

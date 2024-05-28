@@ -133,6 +133,18 @@ export default function NavbarComponent() {
                     }
                   ></div>
                 </Link>
+                <Link
+                  href="/blog"
+                  onClick={handleBlog}
+                  className={` ${style.navPage} mulish`}
+                >
+                  Blog
+                  <div
+                    className={
+                      activePage === "Blog" ? style.activeMark : style.mark
+                    }
+                  ></div>
+                </Link>
               </div>
             </Nav>
             <div className={style.divDx}>
