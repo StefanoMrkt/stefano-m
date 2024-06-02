@@ -11,6 +11,11 @@ const nextConfig = {
         destination: "/servizi/web-design",
         permanent: true,
       },
+      {
+        source: "/servizi/social",
+        destination: "/servizi/social-media",
+        permanent: true,
+      },
     ];
   },
 };

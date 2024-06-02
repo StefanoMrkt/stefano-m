@@ -18,7 +18,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Stefano Montemarli - Web Designer Professionista",
   description:
-    "Web Designer professionista, creo siti web ottimizzati e personalizzati per migliorare la tua presenza online e aumentare la tua visibilità.",
+    "Web Designer professionista: Creo siti web ottimizzati e personalizzati per potenziare la tua presenza online, migliorare la visibilità e aumentare il traffico. Scopri come posso aiutarti a raggiungere i tuoi obiettivi digitali",
 };
 
 export default function WebDesignPage() {

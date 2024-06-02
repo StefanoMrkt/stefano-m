@@ -19,7 +19,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Stefano Montemarli - Esperto Social Media Manager",
   description:
-    "Esperto Social Media Manager, miglioraro la tua presenza online attraverso strategie di Social Media Marketing efficaci e personalizzate.",
+    "Esperto Social Media Manager: Potenzia la tua presenza online con strategie di Social Media Marketing efficaci e personalizzate. Aumenta visibilità, engagement e conversioni!",
 };
 
 export default function SocialMediaPage() {

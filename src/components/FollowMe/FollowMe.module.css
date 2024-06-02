@@ -76,6 +76,7 @@
   .container{
     flex-direction: row;
     margin-top: 45px;
+    
   }
 
   .title {

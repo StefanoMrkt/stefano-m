@@ -20,7 +20,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Stefano Montemarli - Web Designer & Social Media Manager",
   description:
-    "Realizzo siti web professionali e gestisco la tua presenza sui social media. Scorpi come posso migliorare la tua presenza online!",
+    "Creo siti web professionali e gestisco la tua presenza sui social media per potenziare la tua visibilità online. Scopri come posso aiutarti a migliorare la tua presenza digitale e raggiungere i tuoi obiettivi!",
 };
 
 export default function Home() {
