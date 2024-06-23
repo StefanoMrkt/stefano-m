@@ -15,7 +15,7 @@ export default function Call() {
         Guarda questo video per prepararti alla tua call
       </h3>
       <iframe
-        src="https://fast.wistia.com/embed/medias/y9yfs8eki0"
+        src="https://fast.wistia.com/embed/medias/lw5lhial8n"
         title="Video"
         className={style.video}
       ></iframe>

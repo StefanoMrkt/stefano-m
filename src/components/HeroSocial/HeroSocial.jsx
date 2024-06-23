@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import style from "./HeroSocial.module.css";
-import Bolla from "../../Images/Bolla.png";
+import Bolla from "../../Images/Bollina.webp";
 import Phone1 from "../../Images/Phone.png";
 import Phone2 from "../../Images/Phone1.png";
 

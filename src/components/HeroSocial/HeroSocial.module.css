@@ -35,20 +35,20 @@
 
 .bolla1 {
   position: absolute;
-  top: 40%;
-  left: 0;
-  scale: 1.4;
+  top: 20%;
+  left: 0%;
+  scale: 0.7;
   opacity: 0.7;
 }
 
 
 .bolla2 {
   position: absolute;
-  top: 70%;
-  left: 45%;
-  scale: 1.6;
+  top: -10%;
+  right: 15%;
+  scale: 0.9;
   opacity: 0.5;
-  z-index: 15;
+  z-index: 0;
 }
 
 
@@ -56,16 +56,16 @@
   position: absolute;
   top: 20%;
   right: 70%;
-  scale: 1;
+  scale: 0.3;
   opacity: 0.9;
   z-index: 10}
 
 
 .bolla4 {
   position: absolute;
-  top: 80%;
+  top: 30%;
   right: 20%;
-  scale: 0.4;
+  scale: 0.2;
   opacity: 0.5;
   z-index: 15;
 }
@@ -74,8 +74,8 @@
 .bolla5 {
   position: absolute;
   top:25%;
-  left: 70%;
-  scale: 1.8;
+  left: 35%;
+  scale: 0.6;
   opacity: 0.7;
 }
 

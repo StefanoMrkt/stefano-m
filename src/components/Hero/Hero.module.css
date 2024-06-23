@@ -82,8 +82,8 @@
 }
 
 .circle {
-  scale: 1.28;
-  margin-left: -30px;
+  scale: 1.1;
+  margin-left: -100px;
   margin-top: 20px;
   transform: translateX(65px) translateY(70px);
   align-self: flex-start;
@@ -231,6 +231,7 @@
   .circle {
     scale: 0.9;
     width: 100%;
+        margin-left: -20px;
     transform: translateX(0px) translateY(0px);
   }
 
@@ -431,6 +432,7 @@
 
   .circle {
     margin-top: 50px;
+
     
   }
 

@@ -1,7 +1,7 @@
 import style from "./Portfolio.module.css";
 import Image from "next/image";
 
-import Bolla from "../../Images/Bolla.png";
+import Bolla from "../../Images/Bollina.webp";
 
 import Progetto1 from "../../Images/Progetto1.png";
 import Progetto2 from "../../Images/Progetto2.png";

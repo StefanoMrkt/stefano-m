@@ -47,9 +47,8 @@
   padding: 10px 60px;
   background-color: #fc3c3c;
   font-size: 20px;
-  border: solid 2px #fc3c3c;
   color: white;
-  width: 30%;
+  margin: 20px;
   text-decoration: none;
   transition: scale 0.3s ease;
 }

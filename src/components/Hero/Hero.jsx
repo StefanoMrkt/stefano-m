@@ -3,7 +3,7 @@
 import Image from "next/image";
 
 import style from "./Hero.module.css";
-import Circle from "../../Images/Circle.png";
+import Circle from "../../Images/Circle.webp";
 import PlayButton from "../../Images/Play.png";
 import StopButton from "../../Images/Close.png";
 import Bolla from "../../Images/Bolla.png";
@@ -28,7 +28,7 @@ export default function Hero() {
     return new Promise((resolve) => {
       const circularIframe = circularIframeRef.current;
       const iframe = document.createElement("iframe");
-      iframe.src = "https://fast.wistia.com/embed/medias/y9yfs8eki0";
+      iframe.src = "https://fast.wistia.com/embed/medias/i457tph7l7";
       iframe.id = "video";
       iframe.className = style.video;
       circularIframe.appendChild(iframe);

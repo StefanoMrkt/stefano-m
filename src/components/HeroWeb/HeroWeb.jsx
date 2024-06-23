@@ -1,7 +1,7 @@
 import style from "./HeroWeb.module.css";
 import Image from "next/image";
 
-import Bolla from "../../Images/Bolla.png";
+import Bolla from "../../Images/Bollina.webp";
 import Laptop1 from "../../Images/PC1.png";
 import Laptop2 from "../../Images/PC2.png";
 
